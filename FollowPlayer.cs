@@ -6,6 +6,7 @@ public class FollowPlayer : MonoBehaviour
 { 
     [Tooltip("para que la camara siga al player a la distancia especificada")]
     public GameObject player;
+    
     [Tooltip("Vector que indica la distancia que dejamos entre la camara y el player")]
     private Vector3 offset = new Vector3(0f, 0.497f, -1.7f);
     
